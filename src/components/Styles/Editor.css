@@ -1,0 +1,66 @@
+.editor-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background: #fff;
+  }
+  
+  .toolbar {
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .toolbar button {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .toolbar button:hover {
+    background: #eee;
+  }
+  
+  .tiptap {
+    min-height: 200px;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .callout {
+    padding: 12px;
+    border-left: 4px solid #fbbc04;
+    background-color: #fff9c4;
+    margin: 8px 0;
+    border-radius: 4px;
+  }
+  
+  .callout {
+    border-left: 5px solid #3498db;
+    padding: 10px;
+    background-color: #ecf0f1;
+    margin: 10px 0;
+  }
+  
+  .callout .callout-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .callout .callout-content {
+    display: inline-block;
+  }
+  
+  /* Speaker icon added before the text */
+.speaker-icon::before {
+  content: '🔊'; /* The speaker icon */
+  margin-right: 5px; /* Optional: Adds space between the icon and text */
+  font-size: 1.2rem; /* Optional: Adjust the size of the icon */
+  color: #3498db; /* Optional: Adjust the color of the icon */
+}

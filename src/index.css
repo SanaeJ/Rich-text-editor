@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  @apply px-3 py-1 text-sm border border-gray-300 bg-white rounded-md shadow-sm hover:bg-gray-200 active:bg-gray-300;
+}
+
+.prose h1 {
+  @apply text-3xl font-bold;
+}
+
+.prose h2 {
+  @apply text-2xl font-semibold;
+}
+
+.prose h3 {
+  @apply text-xl font-medium;
+}
+
+.prose ul {
+  @apply list-disc ml-5;
+}
+
+.prose ol {
+  @apply list-decimal ml-5;
+}
+
+.prose li {
+  @apply mb-1;
+}
+
+.prose .speaker-icon::before {
+  content: '🔊'; /* The speaker icon */
+  margin-right: 5px; /* Optional: Adds space between the icon and text */
+  font-size: 1.2rem; /* Optional: Adjust the size of the icon */
+}
+
+.tiptap{
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background: #fff;
+
+}
