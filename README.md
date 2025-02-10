@@ -1,87 +1,60 @@
-React-Vite Rich Text Editor with Tiptap
 
-🚀 Project Overview
+# React-Vite Rich Text Editor with Tiptap
+
+A brief description of what this project does and who it's for
+
+
+## 🚀 Project Overview
 
 This is a React-Vite application featuring a rich text editor built with Tiptap. It includes:
 
-A customizable Tiptap editor.
+- A customizable Tiptap editor.
 
-Two custom marks for additional formatting.
+- Two custom marks for additional formatting.
 
-A fast and lightweight setup using Vite.
+- A fast and lightweight setup using Vite.
 
-📦 Installation & Setup
+
+## 📦 Installation & Setup
 
 1️⃣ Clone the Repository
 
-git clone <your-repository-url>
-cd <your-project-folder>
+```bash
+  git clone https://github.com/SanaeJ/Rich-text-editor.git
+  cd Rich-text-editor
+```
+
 
 2️⃣ Install Dependencies
 
-yarn install  # or npm install
+```bash
+  yarn install  # or npm install
+```
 
 3️⃣ Start the Development Server
 
-yarn dev  # or npm run dev
+```bash
+  yarn dev  # or npm run dev
+```
 
 The app should now be running on http://localhost:5173/ (or a different port if specified).
+## ✨ Features
 
-🛠️ Project Structure
+- Rich Text Editing using Tiptap.
 
-📂 your-project-folder
-├── 📂 src
-│   ├── 📂 components
-│   │   ├── Editor.jsx  # Main Tiptap editor component
-│   │   ├── Toolbar.jsx # Custom toolbar for text formatting
-│   ├── 📂 extensions
-│   │   ├── CustomMark1.js # First custom mark
-│   │   ├── CustomMark2.js # Second custom mark
-│   ├── main.jsx  # Entry point
-│   ├── App.jsx   # Main App component
-├── 📄 index.html  # Root HTML file
-├── 📄 package.json  # Project dependencies
-└── 📄 vite.config.js  # Vite configuration
+- Custom Marks for additional formatting.
 
-✨ Features
+- Lightweight & Fast with Vite.
 
-Rich Text Editing using Tiptap.
+- Easy Setup for local development.
+## 🛠️ Custom Marks
 
-Custom Marks for additional formatting.
+This project includes two custom marks for enhanced text formatting. You can find their implementations inside the ``` src/extensions/ ``` folder.
 
-Lightweight & Fast with Vite.
+#### 📌 How to Use Custom Marks
 
-Easy Setup for local development.
-
-🛠️ Custom Marks
-
-This project includes two custom marks for enhanced text formatting. You can find their implementations inside the src/extensions/ folder.
-
-📌 How to Use Custom Marks
-
-Select text in the editor.
-
-Apply a mark using the toolbar button.
-
-The mark will be applied to the selected text.
-
-🔧 Build & Deployment
-
-Create a Production Build
-
-yarn build  # or npm run build
-
-The output will be in the dist/ folder, ready for deployment.
-
-Preview Production Build
-
-yarn preview  # or npm run preview
-
-🤝 Contributing
-
-Feel free to fork the project and submit a pull request. Contributions are always welcome! 🚀
-
-📜 License
-
-This project is open-source and available under the MIT License.
-
+    1. Select text in the editor.
+    
+    2. Apply a mark using the toolbar button.
+    
+    3. The mark will be applied to the selected text.
